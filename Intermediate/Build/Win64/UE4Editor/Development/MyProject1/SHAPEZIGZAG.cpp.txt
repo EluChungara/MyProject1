@@ -1,0 +1,3 @@
+C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Development\MyProject1\Definitions.MyProject1.h
+C:\Users\HP\Desktop\MyProject1\Source\MyProject1\SHAPEZIGZAG.h
+C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Inc\MyProject1\SHAPEZIGZAG.generated.h

@@ -1,0 +1,7 @@
+C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Development\MyProject1\Definitions.MyProject1.h
+C:\Users\HP\Desktop\MyProject1\Source\MyProject1\MyProject1Projectile.h
+C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Inc\MyProject1\MyProject1Projectile.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h

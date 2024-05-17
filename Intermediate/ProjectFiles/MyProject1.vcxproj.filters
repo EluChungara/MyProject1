@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyProject1.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DAEFCB95-C55F-4851-9ACF-36FCE0D0B04C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyProject1.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyProject1Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6090347F-9458-4256-BE23-6B01ADB105A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyProject1">
+      <UniqueIdentifier>{5A7199FD-AFC0-4068-B214-AED75748464A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyProject1\BoxCollider.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\BoxCollider.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\BoxCollider1.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\BoxCollider1.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\MyActor.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\MyActor.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MyProject1\MyProject1.Build.cs">
+      <Filter>Source\MyProject1</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyProject1\MyProject1.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\MyProject1.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\MyProject1GameMode.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\MyProject1GameMode.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\MyProject1Pawn.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\MyProject1Pawn.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\MyProject1Projectile.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\MyProject1Projectile.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\Shape.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\Shape.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\Shape1.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\Shape1.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyProject1\SHAPEZIGZAG.cpp">
+      <Filter>Source\MyProject1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyProject1\SHAPEZIGZAG.h">
+      <Filter>Source\MyProject1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
