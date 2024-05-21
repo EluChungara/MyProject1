@@ -18,7 +18,9 @@ public:
 	virtual void BeginPlay();
 	UFUNCTION()
 		void colisionar(class AActor* objetoA, class AActor* objetoB);
-	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<AShape1*> ShapeActors;
 };
 
 

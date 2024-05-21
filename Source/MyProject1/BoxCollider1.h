@@ -21,9 +21,23 @@ public:
 	ABoxCollider1();
 	UFUNCTION()
 	void colisionar(class AActor* objetoA, class AActor* objetoB);
-
+	
+	
 	UPROPERTY(EditAnywhere)
 	AMyProject1Pawn* nave;
 
 	bool isTouched;
+
+	void DestruirFiguras();
+
+	UPROPERTY(EditAnywhere)
+	class AShape* shape;
+
+	UPROPERTY(EditAnywhere)
+	class AShape1* shape1;
+
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "References")
+	class ABoxCollider* BoxColliderRef;
+
 };

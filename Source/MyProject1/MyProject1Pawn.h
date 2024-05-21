@@ -64,6 +64,22 @@ public:
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
 
+public:
+	int VidasRestantes = 3;
+	int GetVidasRestantes() const { return VidasRestantes; }
+	//Función para aumentar una vida al pawn
+	void AumentarVida()
+	{
+		if (VidasRestantes > 0)
+			VidasRestantes++;
+	}
+	// Función para reducir una vida del pawn
+	void ReducirVida()
+	{
+		if (VidasRestantes > 0)
+			VidasRestantes--;
+	}
+
 
 
 private:

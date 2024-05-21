@@ -19,6 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeBoxCollider1() {}
 	UPackage* Z_Construct_UPackage__Script_MyProject1();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	MYPROJECT1_API UClass* Z_Construct_UClass_AMyProject1Pawn_NoRegister();
+	MYPROJECT1_API UClass* Z_Construct_UClass_AShape_NoRegister();
+	MYPROJECT1_API UClass* Z_Construct_UClass_AShape1_NoRegister();
+	MYPROJECT1_API UClass* Z_Construct_UClass_ABoxCollider_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(ABoxCollider1::execcolisionar)
 	{
@@ -88,6 +91,18 @@ void EmptyLinkFunctionForGeneratedCodeBoxCollider1() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_nave_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_nave;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_shape_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_shape;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_shape1_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_shape1;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BoxColliderRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BoxColliderRef;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -113,8 +128,32 @@ void EmptyLinkFunctionForGeneratedCodeBoxCollider1() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoxCollider1_Statics::NewProp_nave = { "nave", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoxCollider1, nave), Z_Construct_UClass_AMyProject1Pawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_nave_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_nave_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape_MetaData[] = {
+		{ "Category", "BoxCollider1" },
+		{ "ModuleRelativePath", "BoxCollider1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape = { "shape", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoxCollider1, shape), Z_Construct_UClass_AShape_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape1_MetaData[] = {
+		{ "Category", "BoxCollider1" },
+		{ "ModuleRelativePath", "BoxCollider1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape1 = { "shape1", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoxCollider1, shape1), Z_Construct_UClass_AShape1_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape1_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape1_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABoxCollider1_Statics::NewProp_BoxColliderRef_MetaData[] = {
+		{ "Category", "References" },
+		{ "ModuleRelativePath", "BoxCollider1.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABoxCollider1_Statics::NewProp_BoxColliderRef = { "BoxColliderRef", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABoxCollider1, BoxColliderRef), Z_Construct_UClass_ABoxCollider_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_BoxColliderRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABoxCollider1_Statics::NewProp_BoxColliderRef_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABoxCollider1_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoxCollider1_Statics::NewProp_nave,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoxCollider1_Statics::NewProp_shape1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABoxCollider1_Statics::NewProp_BoxColliderRef,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABoxCollider1_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABoxCollider1>::IsAbstract,
@@ -143,7 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeBoxCollider1() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABoxCollider1, 1258865568);
+	IMPLEMENT_CLASS(ABoxCollider1, 400163684);
 	template<> MYPROJECT1_API UClass* StaticClass<ABoxCollider1>()
 	{
 		return ABoxCollider1::StaticClass();

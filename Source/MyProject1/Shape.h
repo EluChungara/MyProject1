@@ -57,7 +57,7 @@ public:
 private:
 	void AsignarMalla();
 	static TArray<UStaticMesh*> MeshArray;
-	void DestruirNave();
+	void DestruirFigura();
 	
 
 };	

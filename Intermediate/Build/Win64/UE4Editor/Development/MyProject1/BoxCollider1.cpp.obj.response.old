@@ -262,11 +262,8 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\MyProject1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\MyProject1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\MyProject1Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
 "C:\Users\HP\Desktop\MyProject1\Source\MyProject1\BoxCollider1.cpp"
-/FI"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Development\MyProject1\Definitions.MyProject1.h"
+/FI"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Development\MyProject1\Definitions.h"
 /Fo"C:\Users\HP\Desktop\MyProject1\Intermediate\Build\Win64\UE4Editor\Development\MyProject1\BoxCollider1.cpp.obj"
 /TP
 /GR-

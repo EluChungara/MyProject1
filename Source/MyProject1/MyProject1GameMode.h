@@ -13,6 +13,11 @@ class AMyProject1GameMode : public AGameModeBase
 
 public:
 	AMyProject1GameMode();
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	class AMyProject1Pawn* Jugador;
 };
 
 

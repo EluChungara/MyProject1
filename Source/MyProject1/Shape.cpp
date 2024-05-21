@@ -108,8 +108,9 @@ void AShape::AsignarMalla() {
 	malla->SetStaticMesh(MeshArray[Random]);
 }
 
-void AShape::DestruirNave()
+void AShape::DestruirFigura()
 {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("DestruirFigura"));
 	Destroy();
 }
 

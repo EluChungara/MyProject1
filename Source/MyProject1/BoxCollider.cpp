@@ -40,6 +40,7 @@ void ABoxCollider::colisionar(AActor * objectoA, AActor * objetoB)
 	//(naveAEjemploNavesPawn)nave)
 	if (NuevoShapeActor) {
 		NuevoShapeActor->mover();
+		ShapeActors.Add(NuevoShapeActor);
 		//NuevoShapeActor->saltar();
 	}
 }

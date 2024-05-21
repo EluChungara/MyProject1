@@ -138,6 +138,7 @@ void AShape1::saltar()
 
 void AShape1::DestruirFigura()
 {
+    GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, TEXT("Shape1 destruido"));
     Destroy();
 }
 
